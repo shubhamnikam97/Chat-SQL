@@ -2,6 +2,7 @@
 A Streamlit-powered intelligent chatbot that allows users to chat with their SQL databases (SQLite or MySQL) using natural language.
 The system uses a LangChain SQL Agent to automatically generate SQL queries, execute them, and return clean, conversational answers — all powered by Groq LLM.
 
+---
 ## 🚀 Features
 - ✅ Chat with your database using natural language
 - ✅ Supports SQLite (Student.db) and MySQL
@@ -15,7 +16,7 @@ The system uses a LangChain SQL Agent to automatically generate SQL queries, exe
 - Invalid SQL queries
 - ✅ Clean, modern interface built with Streamlit
 
-
+---
 ## 🧠 How It Works
 The app uses a LangChain Zero-Shot ReAct SQL Agent, which:
 - Reads the user’s natural language question
@@ -26,6 +27,7 @@ The app uses a LangChain Zero-Shot ReAct SQL Agent, which:
 - Streams intermediate reasoning steps in Streamlit (via StreamlitCallbackHandler)
 This creates a powerful workflow that blends LLM reasoning + SQL execution.
 
+---
 ## 📦 Tech Stack
 - Python 3.12+
 - Streamlit
@@ -35,6 +37,7 @@ This creates a powerful workflow that blends LLM reasoning + SQL execution.
 - SQLite / MySQL
 - SQLAlchemy
 
+---
 ## 📁 Project Structure
 ```
 .
@@ -45,7 +48,7 @@ This creates a powerful workflow that blends LLM reasoning + SQL execution.
 └── README.md           # Documentation
 ```
 
-
+---
 ## 🔧 Installation & Setup
 1️⃣ Clone the repository
 ```bash
@@ -73,6 +76,7 @@ streamlit run app.py
 5️⃣ Add your Groq API Key
 When the app runs, enter your Groq API key in the Streamlit sidebar.
 
+---
 ## 🗄️ Database Options
 ✅ SQLite (Default)
 * Uses the included Student.db file in read-only mode.
