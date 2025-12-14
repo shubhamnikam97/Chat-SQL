@@ -3,6 +3,11 @@ A Streamlit-powered intelligent chatbot that allows users to chat with their SQL
 The system uses a LangChain SQL Agent to automatically generate SQL queries, execute them, and return clean, conversational answers — all powered by Groq LLM.
 
 ---
+## 🌐 Live Demo
+👉 **Try the app here:**  
+https://chat-sql-zgefsdpwnsgpqqsur4jqra.streamlit.app/
+
+---
 ## 🚀 Features
 - ✅ Chat with your database using natural language
 - ✅ Supports SQLite (Student.db) and MySQL
